@@ -7,8 +7,6 @@ config();
 
 const PKEY = process.env.PRIVATE_KEY
 
-console.log(PKEY);
-
 export const publicClient = createPublicClient({
     chain: optimism,
     transport: http(),
